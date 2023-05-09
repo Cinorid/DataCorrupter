@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCorrupter", "DataCorrupter\DataCorrupter.csproj", "{FA29C0A6-A282-4308-98D6-0AB099C11CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA29C0A6-A282-4308-98D6-0AB099C11CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA29C0A6-A282-4308-98D6-0AB099C11CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA29C0A6-A282-4308-98D6-0AB099C11CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA29C0A6-A282-4308-98D6-0AB099C11CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

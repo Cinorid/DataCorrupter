@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TargetFrameworks>net5.0;net6.0;netcoreapp3.1</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>corrupter</AssemblyName>
+    <PackAsTool>true</PackAsTool>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Title>Cinorid.corrupter</Title>
+    <PackageId>Cinorid.corrupter</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Cinorid (AhmadReza Saghari)</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Summary>Corrupt any file with random data.</Summary>
+    <PackageDescription>Corrupt any file with random data.</PackageDescription>
+    <Copyright>Copyright © 2023 Cinorid (AhmadReza Saghari)</Copyright>
+    <PackageProjectUrl>https://github.com/Cinorid/DataCorrupter</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageIcon>packageIcon.png</PackageIcon>
+    <PackageIconFullPath>$(MSBuildThisFileDirectory)packageIcon.png</PackageIconFullPath>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="README.md" />
+    <None Include="..\LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
+    <None Include="$(PackageIconFullPath)" Pack="true" PackagePath="\" />
+    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.4.0-alpha.22272.1" />
+  </ItemGroup>
+
+</Project>
